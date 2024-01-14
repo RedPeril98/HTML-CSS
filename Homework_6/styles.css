@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
+.header {
+    background: #222;
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 18px;
+    padding-bottom: 19px;
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 41px;
+}
+
+.page {
+    background: #F1E4E6;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content {
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.text {
+    color: #222;
+    font-size: 32px;
+    font-weight: 700;
+    justify-content: flex-start;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.highlighting {
+    color: #F16D7F;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.grid_section {
+    margin-top: 65px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    gap: 30px;
+}
+
+.categories_item {
+    width: 360px;
+    height: 260px;
+    background-blend-mode: hue;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories_women {
+    background: url(img/forwomen.svg),
+        rgba(33, 22, 22, 0.70);
+}
+
+.categories_men {
+    background: url(img/formen.png),
+        rgba(33, 22, 22, 0.70);
+}
+
+.categories_kids {
+    background: url(img/forkids.svg),
+        rgba(33, 22, 22, 0.70);
+}
+
+.categories_accesories {
+    background: url(img/accesories.svg),
+        rgba(33, 22, 22, 0.70);
+    background-blend-mode: hue;
+
+    width: 1140px;
+    height: 180px;
+}
+
+.categories_text {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.categories_title {
+    color: #F16D7F;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.heading {
+    margin-top: 96px;
+}
+
+.block_text {
+    text-align: center;
+    margin-top: 6px;
+    flex-direction: row;
+    margin-bottom: 48px;
+}
+
+.caption {
+    color: #222;
+
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.slogan {
+    color: #9F9F9F;
+
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.items-content {
+    margin-top: 48px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 360px);
+    justify-content: center;
+    gap: 30px;
+}
+
+.item {
+    background-color: #F8F8F8;
+}
+
+.subject {
+    color: #000;
+    margin: 24px 16px;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.desc {
+    color: #5D5D5D;
+    margin: 24px 16px;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.price {
+    color: #F16D7F;
+    margin: 24px 16px;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer {
+    display: flex;
+    margin-top: 48px;
+    margin-bottom: 60px;
+    justify-content: center;
+}
+
+.browser-btn {
+    color: #F26376;
+
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: solid #FF6A6A;
+    padding: 15px 39px;
+    border-width:  1px;
+    background-color: #FFF;
+}
